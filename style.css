@@ -7,6 +7,10 @@ body{
 h1{
     font-size: 40px;
 }
+h2{
+    font-size: 30px;
+}
+
 .orange{
     color: orange;
 }
@@ -18,9 +22,13 @@ h1{
     padding-left: 8%;
 }
 section{
-    display: flex;
-    margin-bottom: 80px;
+    /* display: flex; */
+    margin-bottom: 50px;
 }
+.flexible-container{
+    display: flex;
+}
+
 
 }
 .singer img{
@@ -43,5 +51,36 @@ section{
 .dream-big{
     background-image: url(image/bg2.jpg);
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: bottom right;
+    /* margin-bottom: 10px; */
 }
+.shadow{
+    box-shadow: 10px 10px 30px gray;
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    padding: 20px 40px 20px 40px;
+    border-radius: 10px;
+    /* border-left: 10px solid tomato; */
+    
+}
+.experience-area{
+    background-image: url(image/bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#web-ex{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#left-side{
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato,purple);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
+
