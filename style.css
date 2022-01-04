@@ -2,6 +2,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
+    /* display: flex; */
 }
 h1{
     font-size: 40px;
@@ -16,8 +17,10 @@ h1{
 .space{
     padding-left: 8%;
 }
-.singerpic{
+section{
     display: flex;
+    margin-bottom: 80px;
+}
 
 }
 .singer img{
@@ -36,4 +39,9 @@ h1{
     background-image: url(image/top1.jpg);
     background-repeat: no-repeat;
 
+}
+.dream-big{
+    background-image: url(image/bg2.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
